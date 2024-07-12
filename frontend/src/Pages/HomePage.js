@@ -11,7 +11,7 @@ const HomePage = () => {
             destination: destination,
             cabin: cabin,
         };
-        axios.post('http://localhost:5000/search', payload)
+        axios.post('https://airfare-assignment-backend.onrender.com/search', payload)
             .then(response => {
                 setResponseData(response.data.data);
                 console.log(response.data.data)
