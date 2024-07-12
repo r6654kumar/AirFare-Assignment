@@ -1,0 +1,11 @@
+*{
+  margin-top: 10px;
+}
+body{
+  color:white;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);}
+.mainHeading{
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
